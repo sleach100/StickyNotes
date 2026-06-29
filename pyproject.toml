@@ -1,0 +1,16 @@
+[project]
+name = "sticky-notes"
+version = "0.1.0"
+description = "A classic sticky notes desktop GUI app."
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.7",
+]
+
+[project.optional-dependencies]
+build = [
+    "pyinstaller>=6.0",
+]
+
+[tool.pyinstaller]
+name = "StickyNotes"

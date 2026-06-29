@@ -1,0 +1,10 @@
+.venv/
+build/
+dist/
+outputs/
+work/
+*.spec
+__pycache__/
+*.py[cod]
+notes.db
+*.exe
